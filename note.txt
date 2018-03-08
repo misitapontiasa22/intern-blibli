@@ -19,7 +19,8 @@ paste di ;
 setting-SSH and GPS key-new ssh key
 
 ---
-man git : dokumentasi git
-git init
+
+esc -> :q! -> enter : kalo masuk editor
+git init : inisialisasi
 git add. : nge add file yang berubah doang
 git status : bakal kasih tau git
