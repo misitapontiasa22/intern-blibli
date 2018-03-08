@@ -22,5 +22,26 @@ setting-SSH and GPS key-new ssh key
 
 esc -> :q! -> enter : kalo masuk editor
 git init : inisialisasi
+
 git add. : nge add file yang berubah doang
-git status : bakal kasih tau git
+			* git status : bakal kasih tau git
+			* git log : buat kasih tau hash code setiap commit
+git commit -m "comment"
+git remote add origin git@github.com:misitapontiasa22/intern-blibli.git
+--> jgn pake yg https karena nanti diminta username password
+git push -u origin master
+
+git pull : pull di brances/tempat kita sekarang
+git pull origin master :  pull file di master
+
+git remote remove origin : buat remove remote
+
+===================== buat clone project lain
+tembak url
+fork
+git clone git@github.com:misitapontiasa22/furry-octo-barnacle.git (ssh punya teman kit)
+
+bila ada yang diubah :
+git add .
+git commit -m "comment"
+git push -u origin master
