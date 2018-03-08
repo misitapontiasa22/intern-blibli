@@ -1,0 +1,25 @@
+using git bash di folder kita
+
+misal mau cari tinggal : git -key terus tab
+
+cd / : ke my computer
+cd ~ : ke home
+git -keygen : enter terus aja sampe ada SHA256
+
+cd ~/
+cd .ssh
+cat id_rsa.pub
+
+ssh -> buat kasih tau github alamat komp kita (buat nyambungin github ke komp kita)
+
+copy :
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCzvh2m5rrDwMbciCZzZUddpl+CUW3p6qkBh9I3bqdIZEblB2ctkZbyL34+6/rHpJRNqqldcU8Y8LYeZMP6Hxk6JAW/Vk/8vzncmbagW7gl8XRHJF2noU4G51xL1PJ0ydfRM/bIpyxZnESBg8K5+UdSVVG9mNhS/XjMj0lvgqFtu/nhxNdbEdLSxzFdJB9yk8AZySUsRRjVdpKoPiE1i/RPzn5JSVGNHxRStsSM5I1q2uiYffFsH7pOmTHQlLiBeGqNnn+nQZlJ4o7m0lj2xHG8MFpkVUFTpF2L9RsTV8BjmSm2BUf3QWG99OdpQqNWagfDjsAvHbizlPSQBnmP+qSt Misita@DESKTOP-DG1D7DJ
+
+paste di ;
+setting-SSH and GPS key-new ssh key
+
+---
+man git : dokumentasi git
+git init
+git add. : nge add file yang berubah doang
+git status : bakal kasih tau git
